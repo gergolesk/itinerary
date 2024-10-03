@@ -93,7 +93,7 @@ To download the program, clone the Git repository to your local machine using th
 
 ```bash
 git clone https://github.com/gergolesk/itinerary.git
-cd prettifier
+cd itinerary
 ```
 
 ### Step 2: Compile the Program
