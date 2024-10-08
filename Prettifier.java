@@ -51,7 +51,12 @@ public class Prettifier {
                 if (needToPrint) {
                     Utils.printToConsole(processor.dataLines);
                 }
-                System.out.println(GREEN + "File processed successfully. Number of corrections: " + CYAN + processor.numberOfChanges + RESET);
+                if (processor.numberOfChanges!=0){
+                    System.out.println(GREEN + "File processed successfully. Number of corrections: " + CYAN + processor.numberOfChanges + RESET);
+                } else {
+                    System.out.println("The input file is not modified.");
+                }
+                
                 
                 
             } catch (IOException e) {

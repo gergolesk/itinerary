@@ -4,6 +4,7 @@ import java.nio.file.Paths;
 import java.util.List;
 import java.util.ArrayList;
 
+
 public class Utils {
     // Reads the contents of a text file and returns a list of lines.
     public static List<String> readFile(String filePath) throws IOException {
@@ -47,6 +48,9 @@ public class Utils {
                 lastLineWasBlank = false;
             }
         }
+        
+
+        
 
         return cleaned;
     }
